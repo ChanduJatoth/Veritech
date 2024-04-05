@@ -1,0 +1,207 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 100vh;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+h3 {
+    color: rgb(12, 1, 1);
+}
+
+.line {
+    border-style: dashed;
+    background-color: purple;
+    margin:auto;
+    position: relative;
+    width: 90%;
+    color: white;
+
+
+}
+.company-brief{
+    text-align: center;
+    width: 75%;
+    position: relative;
+    margin: auto;
+    color: black;
+    padding-bottom: 25px ;
+}
+
+
+.company-name {
+    color: white;
+    font-size: 24px;
+    background-color: purple;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 10px;
+    position: absolute;
+    margin-top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+}
+
+.content {
+    padding: 20px;
+    margin-top: 60px;
+    padding-top: 60px;
+    text-align: center;
+    clear: both;
+}
+
+.founders,
+.vps,
+.developers1,
+.developers2,
+.Sales,
+.Marketing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.founder {
+    width: calc(50% - 20px);
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    justify-content: center;
+}
+
+
+.vp {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    justify-content: center;
+
+}
+
+.vp img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid purple;
+    justify-content: center;
+}
+
+.founder img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid purple;
+    justify-content: center;
+}
+
+.Founder-heading {
+    color: white;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    background-color: purple;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+}
+
+.developer {
+    width: calc(25% - 20px);
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    justify-content: center;
+}
+
+
+.developer img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid purple;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 576px) {
+    .company-name {
+        font-size: 18px;
+        padding: 6px;
+        border-radius: 12px;
+    }
+
+    .content {
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+
+    .Founder-heading {
+        font-size: 16px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        border-radius: 6px;
+    }
+
+    .founder,
+    .vp,
+    .developer {
+        width: 100%;
+    }
+
+    .founder img,
+    .vp img,
+    .developer img {
+        width: 80px;
+        height: 80px;
+        align-items: center;
+    }
+}
+
+.rectangle {
+    height: 50px;
+    width: 100px;
+    background-color: rgb(156, 67, 156);
+    position: relative;
+    float: right;
+}
+
+.triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-left: 50px solid rgb(253, 253, 253);
+    border-bottom: 25px solid transparent;
+    float: left;
+}
+
+.devrectangle {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(150, 19, 150);
+    position: relative;
+    float: left;
+}
+
+.devtriangle {
+    width: 0;
+    height: 0;
+    border-right: 50px solid rgb(255, 254, 254);
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    float: right;
+}
